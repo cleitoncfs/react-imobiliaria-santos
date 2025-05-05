@@ -1,0 +1,40 @@
+.services {
+    padding: 60px 0;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    text-align: center;
+}
+
+.services-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.services-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--highlight-yellow);
+}
+
+.services-text {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .services-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .services-text {
+        font-size: 1rem;
+    }
+}

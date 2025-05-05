@@ -1,0 +1,21 @@
+.banner {
+    padding-top: 80px;
+}
+
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding-top: 70px;
+    }
+}

@@ -1,0 +1,44 @@
+.about {
+    background-color: var(--light-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.about-subtitle {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.highlight-blue {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
+}

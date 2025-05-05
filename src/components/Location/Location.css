@@ -1,0 +1,38 @@
+.location {
+    background-color: var(--light-color);
+    padding: 60px 0;
+}
+
+.map-container {
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.location-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.location-info h4 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.location-info p {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .location {
+        padding: 40px 0;
+    }
+
+    .map-container {
+        margin: 20px auto;
+    }
+}

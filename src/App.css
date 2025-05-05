@@ -1,0 +1,67 @@
+/* Estilos globais */
+:root {
+    --primary-color: #1d80c1;
+    --secondary-color: #afddfb;
+    --dark-color: #1d1d1d;
+    --light-color: #ffffff;
+    --highlight-yellow: #fff81b;
+    --text-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.bg-blue {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.highlight-blue {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.highlight-yellow {
+    color: var(--highlight-yellow);
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
