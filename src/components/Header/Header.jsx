@@ -43,7 +43,7 @@ const Header = () => {
                         </button>
                         <nav className={`nav-mobile ${menuOpen ? "open" : ""}`}>
                             <a href="#topo" onClick={closeMenu}>
-                                Home
+                                Início
                             </a>
                             <a href="#sobre" onClick={closeMenu}>
                                 Sobre
@@ -58,7 +58,7 @@ const Header = () => {
                     </>
                 ) : (
                     <nav className="nav-desktop">
-                        <a href="#topo">Home</a>
+                        <a href="#topo">Início</a>
                         <a href="#sobre">Sobre</a>
                         <a href="#localizacao">Localização</a>
                         <a href="#contato">Contato</a>
